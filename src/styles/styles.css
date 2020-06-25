@@ -105,17 +105,12 @@ form {
     outline-color: #007CC7;
     outline-style: none;
     border-image-outset: 0;
-    border
 }
 
 #buttonContinue:hover {
     opacity: .7;
     transition: .3s;
 }
-
-/* .#buttonContinue:focus {
-    outline: none;
-} */
 
 .createAccount {
     width: 50%;
