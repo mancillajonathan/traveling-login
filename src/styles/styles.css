@@ -133,8 +133,10 @@ form {
         height: 50vh;
     }
 
-    .content {
-        position: relative;
+    .image {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
 
     .logo {
@@ -146,13 +148,12 @@ form {
  
     .hero-title {
         width: auto;
-        position: absolute;
         top: 230px;
         color: #ffffff;
         font-weight: bold;
         line-height: 35px;
         font-size: 25px;
-        margin: 0 0 0 24px;
+        margin: 0 24px 25px 24px;
     }
 
     form {
