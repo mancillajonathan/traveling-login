@@ -17,12 +17,28 @@ body {
 }
 
 .image {
-    background-image: url('./src/images/landing.svg');
+    background-image: url('/src/images/landing.svg');
     width: 100%;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: auto;
+    height: 15px;
+}
+
+.hero-title {
+    width: 480px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 35px;
+    margin: 20px 0 0 40px;
 }
 
 @media screen and (max-width: 376px) {
@@ -33,5 +49,25 @@ body {
     .content div {
         width: 100%;
         height: 50vh;
+    }
+
+    .logo {
+        width: auto;
+        height: 13px;
+        /* position: absolute; */
+        display: block;
+        margin: 210px auto;
+        /* top: 210px; */
+    }
+    
+    .hero-title {
+        width: auto;
+        position: absolute;
+        top: 250px;
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 35px;
+        font-size: 25px;
+        margin: 0 0 0 24px;
     }
 }
