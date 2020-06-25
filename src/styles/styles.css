@@ -17,7 +17,7 @@ body {
 }
 
 .image {
-    background-image: url('https://raw.githubusercontent.com/mancillajonathan/traveling-login/master/src/images/landing.svg');
+    background-image: url('/src/images/events-travel-logo.svg');
     width: 100%;
     height: 100%;
     background-position: center;
