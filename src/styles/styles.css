@@ -74,14 +74,11 @@ form {
 .inputForm input {
     width: 100%;
     border-style: none;
-    color: #707070;
+    /* color: #707070; */
+    color: #001F38;
     font-weight: bold;
-    opacity: .50;
+    opacity: .70;
     font-size: 16px;
-}
-
-.inputPassword {
-    
 }
 
 .fieldText {
